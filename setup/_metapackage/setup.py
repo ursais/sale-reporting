@@ -21,6 +21,7 @@ setuptools.setup(
         'odoo-addon-sale_report_delivered_deposit>=16.0dev,<16.1dev',
         'odoo-addon-sale_report_delivered_subtotal>=16.0dev,<16.1dev',
         'odoo-addon-sale_report_delivered_volume>=16.0dev,<16.1dev',
+        'odoo-addon-sale_report_salesperson_from_partner>=16.0dev,<16.1dev',
     ],
     classifiers=[
         'Programming Language :: Python',
