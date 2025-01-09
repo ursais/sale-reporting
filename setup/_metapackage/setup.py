@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo-addon-sale_order_line_position>=16.0dev,<16.1dev',
         'odoo-addon-sale_order_product_recommendation_product_sold_by_delivery_week>=16.0dev,<16.1dev',
         'odoo-addon-sale_order_report_product_image>=16.0dev,<16.1dev',
+        'odoo-addon-sale_order_weight>=16.0dev,<16.1dev',
         'odoo-addon-sale_packaging_report>=16.0dev,<16.1dev',
         'odoo-addon-sale_report_commitment_date>=16.0dev,<16.1dev',
         'odoo-addon-sale_report_country_state>=16.0dev,<16.1dev',
