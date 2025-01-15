@@ -5,11 +5,21 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form" />
         <field name="arch" type="xml">
-            <xpath expr="//group[@name='sale_info']//field[@name='invoice_status']" position="after">
-                <field name="invoice_date" states="sale,done" groups="base.group_no_one"/>
+            <xpath
+                expr="//group[@name='sale_info']//field[@name='invoice_status']"
+                position="after"
+            >
+                <field
+                    name="invoice_date"
+                    states="sale,done"
+                    groups="base.group_no_one"
+                />
             </xpath>
-            <xpath expr="//field[@name='order_line']//tree//field[@name='price_subtotal']" position="after">
-                <field name="invoice_date" optional="hide"/>
+            <xpath
+                expr="//field[@name='order_line']//tree//field[@name='price_subtotal']"
+                position="after"
+            >
+                <field name="invoice_date" optional="hide" />
             </xpath>
         </field>
     </record>
