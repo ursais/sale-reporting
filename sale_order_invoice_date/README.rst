@@ -25,7 +25,7 @@ Sale Order Invoice Date
 
 |badge1| |badge2| |badge3| |badge4| |badge5| 
 
-Display the invoice date on Sales Order analysis reports.
+Display the invoice date on Sales Order analysis reports, Sales Order form, and tree view.
 
 The invoice date is considered to be the latest invoice date linked to fully
 invoiced sales.
@@ -59,6 +59,10 @@ Contributors
 * `Camptocamp <https://www.camptocamp.com>`_
 
   * Iván Todorovich <ivan.todorovich@camptocamp.com>
+
+* `Open Source Integrators <https://www.opensourceintegrators.com/>`_
+
+  * Murtuza Saleh <msaleh@opensourceintegrators.com>
 
 Maintainers
 ~~~~~~~~~~~
